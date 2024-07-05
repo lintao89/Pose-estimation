@@ -10,15 +10,15 @@ Install VMWare & Ubuntu ios file
 Create VM with disk size >24 Gb
 
 # Step 3:
-sudo apt update \n
-sudo apt install -y python3-pip
+sudo apt update &
+sudo apt install -y python3-pip &
 pip3 install --upgrade pip
 
 # Step 4:
 git clone https://github.com/yuyoujiang/exercise-counting-with-YOLOv8.git
 
 # Step 5:
-pip install these:
+pip install these:  
 numpy==2.0.0
 opencv_python==4.10.0.84
 torch==2.3.1
