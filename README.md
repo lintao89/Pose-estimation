@@ -10,7 +10,7 @@ Install VMWare & Ubuntu ios file
 Create VM with disk size >24 Gb
 
 # Step 3:
-sudo apt update
+sudo apt update \n
 sudo apt install -y python3-pip
 pip3 install --upgrade pip
 
