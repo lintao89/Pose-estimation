@@ -18,7 +18,11 @@ pip3 install --upgrade pip
 git clone https://github.com/yuyoujiang/exercise-counting-with-YOLOv8.git
 
 # Step 5:
-pip install -r requirements.txt
+pip install these:
+numpy==2.0.0
+opencv_python==4.10.0.84
+torch==2.3.1
+ultralytics==8.0.100
 
 # Step 6 (on webcam) :
 python3 demo.py --sport <exercise_type> --model yolov8s-pose.pt --show True --input 0
